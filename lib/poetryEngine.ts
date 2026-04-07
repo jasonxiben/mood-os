@@ -2,7 +2,7 @@ import poetryData from '@/data/poetry_db.json';
 
 export interface Poem {
   id: string;
-  author: string;
+  author?: string;
   content: string;
   tags: string[];
   color: string;
